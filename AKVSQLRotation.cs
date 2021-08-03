@@ -3,10 +3,11 @@
 using Azure.Security.KeyVault.Secrets;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Logging;
-using Microsoft.Azure.EventGrid.Models;
+//using Microsoft.Azure.EventGrid.Models;
 using Microsoft.Azure.WebJobs.Extensions.EventGrid;
 using Microsoft.Azure.WebJobs;
 using System.Text.RegularExpressions;
+using Azure.Messaging.EventGrid;
 
 namespace Microsoft.KeyVault
 {

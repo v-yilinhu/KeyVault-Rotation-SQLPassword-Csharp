@@ -30,13 +30,13 @@
                 "description": "The name of the secret where sql password is stored."
             }
         },
-        "repoURL": {
-            "defaultValue": "https://github.com/jlichwa/KeyVault-Rotation-SQLPassword-Csharp.git",
-            "type": "String",
-            "metadata": {
-                "description": "The URL for the GitHub repository that contains the project to deploy."
-            }
-        }
+    "repoURL": {
+      "defaultValue": "https://github.com/v-yilinhu/KeyVault-Rotation-SQLPassword-Csharp.git",
+      "type": "String",
+      "metadata": {
+        "description": "The URL for the GitHub repository that contains the project to deploy."
+      }
+    }
   },
   "variables":{  
      "functionStorageAccountName": "[concat(uniquestring(resourceGroup().id), 'azfunctions')]",
